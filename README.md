@@ -5,6 +5,7 @@ This repository contains test projects.
 ## Miscellaneous
 
 This project uses reflection to instanciate classes and run the Execute method. It contains:
+- DbCommandInterceptorTask: add interceptor to an Entity Framework Core DbContext to trace SQL commands.
 - ExecutablePathTask: it was created to test the est way to get the assembly path (using single file build and/or application installed into UNC folder).
 - NatStarTask: read the NatStar dictionary. Don't ask what is NatStar.
 - RegistryTask: write in the Windows registry :
